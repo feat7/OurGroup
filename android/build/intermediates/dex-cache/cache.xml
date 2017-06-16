@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/vinay/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/media/vinay/New Volume/workspace/react-native/OurGroup/android/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1_07c2ae9250639fe136ea0136095f11e78594e565.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/vinay/New Volume/workspace/react-native/OurGroup/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
+        <dex dex="/media/vinay/New Volume/workspace/react-native/OurGroup/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.0.1_d2d07747097f4d4ef1f0d98ce4d12c44bd44949b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/vinay/New Volume/workspace/react-native/OurGroup/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2668e49e4e31c7d451b76a36009b902bf44e0d70">
+        <dex dex="/media/vinay/New Volume/workspace/react-native/OurGroup/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.0.1_d2fedf38f69e88d37b9fabe6b0169b6faa3fe010.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/vinay/New Volume/workspace/react-native/OurGroup/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d9c4402c3057225d80cbbbec52154e7a25b0ebdf">
+        <dex dex="/media/vinay/New Volume/workspace/react-native/OurGroup/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.0.1_87e471a2ccc18e9329ab575f7cf366bdaae56238.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinay/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/media/vinay/New Volume/workspace/react-native/OurGroup/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_41a900f9f3b38ef6d4c4761ac4a19491f6cee40c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/vinay/New Volume/workspace/react-native/OurGroup/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/media/vinay/New Volume/workspace/react-native/OurGroup/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_9f75e90b237cf14ad8ec7dd084f334fe5714ffdb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinay/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/media/vinay/New Volume/workspace/react-native/OurGroup/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_b927c7013318f1cc900a09b5b64aff7bbf0d874f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinay/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/media/vinay/New Volume/workspace/react-native/OurGroup/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_a48109c178e0471a2731186fa9fe6bbf737783dc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/vinay/New Volume/workspace/react-native/OurGroup/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/media/vinay/New Volume/workspace/react-native/OurGroup/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_667234826fcf166a11c34629ef52ad32c5fd3c7f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/vinay/New Volume/workspace/react-native/OurGroup/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
+        <dex dex="/media/vinay/New Volume/workspace/react-native/OurGroup/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.0.1_3e1185769eea81febcb3ff7fd10299359bc04a4c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinay/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/media/vinay/New Volume/workspace/react-native/OurGroup/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_c8cbfec9956262b71a0a97b7e5cacaabe66fff29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/vinay/New Volume/workspace/react-native/OurGroup/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ba9b39366b723ccff6359d1117332968e98a4aca">
+        <dex dex="/media/vinay/New Volume/workspace/react-native/OurGroup/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.0.1_a80ee0d1bea7084a2041fb4df5c9b5ec79ea6288.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinay/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="/media/vinay/New Volume/workspace/react-native/OurGroup/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.4.1_a2b10c236ed7b935ea91bec23584ec32cabc7b66.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/vinay/New Volume/workspace/react-native/OurGroup/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/media/vinay/New Volume/workspace/react-native/OurGroup/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_261ac6302a18571c51e7b99ea6772163948e9cc2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/vinay/New Volume/workspace/react-native/OurGroup/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.45.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="0d3e48e200296061415952a358fad487e129adaa">
+        <dex dex="/media/vinay/New Volume/workspace/react-native/OurGroup/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.45.1_294bd1673d64a69e882a68031839c7e79c99aef7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinay/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/media/vinay/New Volume/workspace/react-native/OurGroup/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_e6628faf50fde45ee75cdbcab769fd570995c3a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/vinay/New Volume/workspace/react-native/OurGroup/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.45.1/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/media/vinay/New Volume/workspace/react-native/OurGroup/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_bc1affd1496cfc7fa10d40cc48b5ce1ef6e81d33.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/vinay/New Volume/workspace/react-native/OurGroup/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/media/vinay/New Volume/workspace/react-native/OurGroup/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_ebf3535cf7ec611647a09d3cc1fd592d956e4b2e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinay/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="/media/vinay/New Volume/workspace/react-native/OurGroup/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.4.1_062d4c5c1b611c73fad21d2465a389d34fbd22f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/vinay/New Volume/workspace/react-native/OurGroup/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/media/vinay/New Volume/workspace/react-native/OurGroup/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_4de5920e3b7ec7ce586e3e8449deabb772d6d7ce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/vinay/New Volume/workspace/react-native/OurGroup/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="050f688115ea65a0292d8483a6ffe6bcdab1e2ef">
+        <dex dex="/media/vinay/New Volume/workspace/react-native/OurGroup/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.0.1_04892120eb80306a7c172fbb36a7d69728020b6e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinay/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/media/vinay/New Volume/workspace/react-native/OurGroup/android/app/build/intermediates/pre-dexed/debug/okio-1.9.0_533627e2ed26b99c8152901d20ec5685703a8690.jar" />
+    </item>
+
+</items>
