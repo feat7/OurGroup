@@ -12,6 +12,16 @@ import Login from './app/components/ui/Login'
 import UserProfile from './app/components/ui/UserProfile'
 
 export default class OurGroup extends Component {
+
+  constructor() {
+    super();
+  
+    this.state = {
+      name: 'old_name',
+      id: 'old_id'
+    }
+  }
+
   render() {
     return (
       <Router>
