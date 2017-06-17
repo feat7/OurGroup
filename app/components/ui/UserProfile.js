@@ -18,21 +18,29 @@ const {
 class UserProfile extends Component {
 
 	constructor() {
-	  super();
-	
-	  this.state = {
-	  	userData: {
-	  		id: "",
-	  		name: ""
-	  	}
-	  }
+		super();
+
+		this.state = {
+			userData: {
+				id: "",
+				name: ""
+			},
+			groupData: {
+
+			}
+		}
 
 		this._responseInfoCallback = this._responseInfoCallback.bind(this)
+		this._responseGroupCallback = this._responseGroupCallback.bind(this)
 		this.getUserData = this.getUserData.bind(this)
+		this.getGroupData = this.getGroupData.bind(this)
 
 	  	this.getUserData();
+	  	this.getGroupData();
 
 	}
+
+	//getters
 
 	getUserData() {
 
@@ -51,6 +59,24 @@ class UserProfile extends Component {
 		new GraphRequestManager().addRequest(infoRequest).start();
 	}
 
+	getGroupData() {
+		const infoRequest = new GraphRequest(
+			'/586400221495560/feed',
+			{
+				parameters: {
+					fields: {
+						string: 'attachments'
+					}
+				}
+			},
+			this._responseGroupCallback,
+		);
+
+		new GraphRequestManager().addRequest(infoRequest).start();
+	}
+
+	//Callbacks
+
 	_responseInfoCallback(error: ?Object, result: ?Object) {
 	  if (error) {
 	    alert('Error fetching data: ' + JSON.stringify(error));
@@ -59,13 +85,28 @@ class UserProfile extends Component {
 	  		userData: result
 	  	})
 
-		console.log(this.state)
+	    // Alert.alert('Success fetching data: ' + JSON.stringify(result));
+	  }
+	}
 
+	_responseGroupCallback(error: ?Object, result: ?Object) {
+	  if (error) {
+	    alert('Error fetching data: ' + JSON.stringify(error));
+	  } else {
+	  	this.setState({
+	  		groupData: result
+	  	})
+
+		console.log(this.state)
+	  	
 	    // Alert.alert('Success fetching data: ' + JSON.stringify(result));
 	  }
 	}
 
 	componentWillMount() {
+	}
+
+	componentDidMount() {
 	}
 
 	render() {

@@ -15,11 +15,6 @@ export default class OurGroup extends Component {
 
   constructor() {
     super();
-  
-    this.state = {
-      name: 'old_name',
-      id: 'old_id'
-    }
   }
 
   render() {
