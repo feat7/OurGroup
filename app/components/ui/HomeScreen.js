@@ -7,13 +7,21 @@ import {
 } from 'react-native'
 import { Actions } from 'react-native-router-flux'
 import LoginBtn from './LoginBtn'
+import { AccessToken } from 'react-native-fbsdk'
 
 export default class HomeScreen extends Component {
+
+  componentDidMount() {
+    AccessToken.getCurrentAccessToken().then(
+            (data) => { Actions.UserProfile(); } //Refresh it every time
+        );
+  }
 
 	render() {
 		return(
 	      <View style={styles.container}>
 	        <Text style={styles.title}>OurGroup App</Text>
+          <Text style={styles.text}>Manage Facebook Groups...</Text>
 	        <LoginBtn />
 	      </View>
 		);
@@ -32,6 +40,10 @@ const styles = StyleSheet.create({
     fontWeight: 'normal',
     fontSize: 25,
     color: '#fff'
+  },
+  text: {
+    color: '#fff',
+    padding: 2,
   },
   btn: {
   	color: '#fff',

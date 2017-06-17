@@ -10,6 +10,8 @@ const {
   LoginButton
 } = FBSDK;
 
+import { Actions } from 'react-native-router-flux'
+
 export default class LoginBtn extends Component {
 	render() {
     return (
@@ -23,6 +25,8 @@ export default class LoginBtn extends Component {
               } else if (result.isCancelled) {
                 alert("Login was cancelled");
               } else {
+				Actions.UserProfile()
+
                 alert("Login was successful with permissions: " + result.grantedPermissions)
               }
             }
