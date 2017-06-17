@@ -6,16 +6,15 @@ import {
 	StyleSheet
 } from 'react-native'
 import { Actions } from 'react-native-router-flux'
+import LoginBtn from './LoginBtn'
 
-export default class Login extends Component {
+export default class HomeScreen extends Component {
 
 	render() {
 		return(
 	      <View style={styles.container}>
 	        <Text style={styles.title}>OurGroup App</Text>
-	        <Button onPress={Actions.Login} style={styles.btn} title="Login"
-	        	color="#005577"
-	        />
+	        <LoginBtn />
 	      </View>
 		);
 	}
