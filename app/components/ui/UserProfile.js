@@ -31,7 +31,6 @@ class UserProfile extends Component {
 		this.getUserData = this.getUserData.bind(this)
 
 	  	this.getUserData();
-		
 
 	}
 
@@ -39,7 +38,13 @@ class UserProfile extends Component {
 
 		const infoRequest = new GraphRequest(
 			'/me',
-		  	null,
+		  	{
+              parameters: {
+                fields: {
+                  string: 'email,name,first_name,middle_name,last_name,birthday'
+                }
+              }
+            },
 		    this._responseInfoCallback,
 		);
 		      
@@ -53,6 +58,9 @@ class UserProfile extends Component {
 	  	this.setState({
 	  		userData: result
 	  	})
+
+		console.log(this.state)
+
 	    // Alert.alert('Success fetching data: ' + JSON.stringify(result));
 	  }
 	}

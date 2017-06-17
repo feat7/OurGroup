@@ -13,7 +13,7 @@ export default class HomeScreen extends Component {
 
   componentDidMount() {
     AccessToken.getCurrentAccessToken().then(
-            (data) => { Actions.UserProfile(); } //Refresh it every time
+            (data) => { if(data) Actions.UserProfile(); } //Refresh it every time
         );
   }
 

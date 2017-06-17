@@ -17,7 +17,7 @@ export default class LoginBtn extends Component {
     return (
       <View>
         <LoginButton
-          publishPermissions={["publish_actions"]}
+          publishPermissions={["publish_actions,public_profile,email"]}
           onLoginFinished={
             (error, result) => {
               if (error) {
