@@ -11,7 +11,7 @@ import { AccessToken } from 'react-native-fbsdk'
 
 export default class HomeScreen extends Component {
 
-  componentDidMount() {
+  componentWillMount() {
     AccessToken.getCurrentAccessToken().then(
             (data) => { if(data) Actions.UserProfile(); } //Refresh it every time
         );

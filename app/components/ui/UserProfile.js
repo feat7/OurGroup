@@ -5,7 +5,8 @@ import {
   StyleSheet,
   View,
   Text,
-  Alert
+  Alert,
+  Button
 } from 'react-native';
 import { Actions } from 'react-native-router-flux'
 
@@ -109,12 +110,17 @@ class UserProfile extends Component {
 	componentDidMount() {
 	}
 
+
 	render() {
+	
+		const goToFeedList = () => Actions.FeedList({state: this.state});
 	
 		return (
 		  <View style={styles.container}>
 		    <Text style={styles.title}>{this.state.userData.name}!</Text>
 		  	<Text style={styles.text}>Logged In successfully! with id {this.state.userData.id}</Text>
+		  	<Button onPress={goToFeedList}
+		  	title="FeedList" ></Button>
 		  </View>
 		);
 	}
