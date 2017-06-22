@@ -120,7 +120,9 @@ class UserProfile extends Component {
 		    <Text style={styles.title}>{this.state.userData.name}!</Text>
 		  	<Text style={styles.text}>Logged In successfully! with id {this.state.userData.id}</Text>
 		  	<Button onPress={goToFeedList}
-		  	title="React Native" ></Button>
+		  	title="React Native Community"
+		  	color="#841584"
+		  	></Button>
 		  </View>
 		);
 	}
@@ -145,6 +147,9 @@ const styles = StyleSheet.create({
   btn: {
   	color: '#fff',
   	backgroundColor: '#ff0000'
+  },
+  button: {
+
   }
 });
 

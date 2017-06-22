@@ -36,7 +36,7 @@ class FeedList extends Component {
 									if(item.description) {
 
 										return (<View style={[styles.reset, styles.listItem]} key={i}>
-										<Text>{JSON.stringify(item.description)}</Text>
+										<Text>{item.description}</Text>
 										</View>	)
 									}
 									else return null;
