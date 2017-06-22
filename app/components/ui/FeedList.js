@@ -27,25 +27,14 @@ class FeedList extends Component {
 
 		const renderRowData = (rowData) => {
 
-			// return null
+			return (	
 
-			return (							
-						<View style={styles.reset}>
-							{(rowData.attachments) ? rowData.attachments.data.map( (item, i) => 
-								{
-									if(item.description) {
-
-										return (<View style={[styles.reset, styles.listItem]} key={i}>
-										<Text>{item.description}</Text>
-										</View>	)
-									}
-									else return null;
-										
-								}
-								 
-								) : null
-							}
-						</View>	
+				<View>
+					<View style={[styles.reset, styles.listItem]} key={rowData.id}>
+						<Text>{rowData.message}</Text>
+					</View>
+				</View>						
+						
 			);
 		};
 

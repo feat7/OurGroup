@@ -66,7 +66,7 @@ class UserProfile extends Component {
 			{
 				parameters: {
 					fields: {
-						string: 'attachments'
+						string: 'attachments,message'
 					}
 				}
 			},
