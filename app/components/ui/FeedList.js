@@ -6,7 +6,8 @@ import {
   StyleSheet,
   View,
   Text,
-  ListView
+  ListView,
+  Image
 } from 'react-native';
 
 class FeedList extends Component {
@@ -27,11 +28,19 @@ class FeedList extends Component {
 
 		const renderRowData = (rowData) => {
 
+					// if(rowData.attachments) console.log(rowData.attachments);
+
 			return (	
 
 				<View>
 					<View style={[styles.reset, styles.listItem]} key={rowData.id}>
-						<Text>{rowData.message}</Text>
+						{ (rowData.attachments) ? ( <View style={styles.imageContainer}>
+							<Image source={{uri: rowData.attachments.data[0].media.image.src}}
+       												style={[ { width: rowData.attachments.data[0].media.image.width,
+       												height: rowData.attachments.data[0].media.image.height,},
+       												{overflow: 'visible'} ]} 
+       												resizeMode="contain"/></View> ): null }
+						<Text numberOfLines={4}>{rowData.message}</Text>
 					</View>
 				</View>						
 						
@@ -71,6 +80,19 @@ const styles = StyleSheet.create({
 	reset: {
 		padding: 0,
 		margin: 0
+	},
+	imageContainer: {
+		flex: 1,
+		alignItems: 'center',
+		justifyContent: 'center'
+	},
+	image: {
+		  position: 'absolute',
+		  top: 0,
+		  left: 0,
+		  bottom: 0,
+		  right: 0,
+
 	}
 });
 
