@@ -120,7 +120,7 @@ class UserProfile extends Component {
 		    <Text style={styles.title}>{this.state.userData.name}!</Text>
 		  	<Text style={styles.text}>Logged In successfully! with id {this.state.userData.id}</Text>
 		  	<Button onPress={goToFeedList}
-		  	title="FeedList" ></Button>
+		  	title="React Native" ></Button>
 		  </View>
 		);
 	}

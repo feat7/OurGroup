@@ -27,25 +27,21 @@ class FeedList extends Component {
 
 		const renderRowData = (rowData) => {
 
-			return (
-				<View>
-					{
-						// rowData.map( d => (
+			return (							
 						<View>
-							<Text>{rowData.id}</Text>
-							{(rowData.attachments) ? rowData.attachments.data.map(d => <Text>{d.description}</Text>) : null}
-							<Text>---------------------------</Text>
-						</View>
-						// ))
-					}
-				</View>
+						
+							{(rowData.attachments) ? rowData.attachments.data.map( (item, i) => <View style={styles.listItem} key={i}>
+								<Text>{JSON.stringify(item.description)}</Text>
+								</View> ) : null}
+						</View>	
 			);
 		};
 
-		console.log("FeedList state",this.state)
+	  	console.log("Debug",this.state)
+
+
 		return (
 		  <View style={styles.container}>
-		  	<Text>Feed list</Text>
 		  	<ListView
 		  	dataSource={this.state.dataSource}
 		  	renderRow={(rowData) => renderRowData(rowData)}
@@ -57,9 +53,11 @@ class FeedList extends Component {
 
 const styles = StyleSheet.create({
 	container: {
-		backgroundColor: 'green',
+		backgroundColor: '#ffffff',
 		flex: 1,
-		marginTop: 60
+	},
+	listItem: {
+		padding: 8,
 	}
 });
 
