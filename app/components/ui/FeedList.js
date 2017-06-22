@@ -27,12 +27,24 @@ class FeedList extends Component {
 
 		const renderRowData = (rowData) => {
 
+			// return null
+
 			return (							
-						<View>
-						
-							{(rowData.attachments) ? rowData.attachments.data.map( (item, i) => <View style={styles.listItem} key={i}>
-								<Text>{JSON.stringify(item.description)}</Text>
-								</View> ) : null}
+						<View style={styles.reset}>
+							{(rowData.attachments) ? rowData.attachments.data.map( (item, i) => 
+								{
+									if(item.description) {
+
+										return (<View style={[styles.reset, styles.listItem]} key={i}>
+										<Text>{JSON.stringify(item.description)}</Text>
+										</View>	)
+									}
+									else return null;
+										
+								}
+								 
+								) : null
+							}
 						</View>	
 			);
 		};
@@ -45,6 +57,7 @@ class FeedList extends Component {
 		  	<ListView
 		  	dataSource={this.state.dataSource}
 		  	renderRow={(rowData) => renderRowData(rowData)}
+		  	renderSectionHeader={() => <Text style={styles.listTitle}>React Native Community</Text>}
 		  	/>
 		  </View>
 		);
@@ -58,6 +71,17 @@ const styles = StyleSheet.create({
 	},
 	listItem: {
 		padding: 8,
+		borderBottomWidth: 0.5,
+		borderColor: '#d6d7da',
+	},
+	listTitle: {
+		backgroundColor: '#2ecc71',
+		color: '#fff',
+		padding: 10,
+	},
+	reset: {
+		padding: 0,
+		margin: 0
 	}
 });
 
